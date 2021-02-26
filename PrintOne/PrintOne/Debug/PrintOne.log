@@ -1,0 +1,30 @@
+﻿빌드 시작: 2021-02-24 오후 5:03:41
+     1>2 노드의 "D:\Data\Github\Study_C\PrintOne\PrintOne\PrintOne.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\Print.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         D:\Software\Microsoft Visual C++ 2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt Print.c
+         Print.c
+     1>d:\data\github\study_c\printone\printone\print.c(5): warning C4013: 'printOne'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>d:\data\github\study_c\printone\printone\print.c(6): warning C4013: 'printTwo'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>d:\data\github\study_c\printone\printone\print.c(7): warning C4013: 'exam01'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>d:\data\github\study_c\printone\printone\print.c(8): warning C4013: 'exam02'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         D:\Software\Microsoft Visual C++ 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Data\Github\Study_C\PrintOne\Debug\Print.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Print.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Data\Github\Study_C\PrintOne\Debug\Print.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Data\Github\Study_C\PrintOne\Debug\Print.lib" /MACHINE:X86 Debug\Print.exe.embed.manifest.res
+         Debug\Print.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Print.exe.embed.manifest" /manifest Debug\Print.exe.intermediate.manifest
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         PrintOne.vcxproj -> D:\Data\Github\Study_C\PrintOne\Debug\Print.exe
+       FinalizeBuildStatus:
+         "Debug\Print.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\Print.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\Data\Github\Study_C\PrintOne\PrintOne\PrintOne.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.59
