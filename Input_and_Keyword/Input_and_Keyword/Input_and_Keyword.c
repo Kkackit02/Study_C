@@ -55,3 +55,22 @@ int SimpleAddThree(void)
 	return 0;
 }
 
+/*
+
+
+KeyWord
+
+auto	_Bool	break	case
+char	_Complex	const	continue
+default	do	double	else
+enum	extern	float	for
+goto	if	_Imaginary	return
+restrict	short	signed	sizeof
+static	struct	switch	typedef
+union	unsigned	void	volatile
+while
+
+-> 프로그래머가 다른 용도로 사용할 수 없도록 제한됨.
+-> 이미 용도가 결정된 단어들
+
+*/
