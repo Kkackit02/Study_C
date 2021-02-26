@@ -10,6 +10,12 @@ int main(void)
 {
 	SimpleAddOne();
 	VarDeclAndlnit();
+	OperatorOne();
+	OperatorTwo();
+	OperatorThree();
+	OperatorFour();
+	OperatorFive();
+	CommaOperate();
 	return 0;
 
 }
@@ -76,8 +82,126 @@ int SimpleAddTwo(void)
 	printf("%d+%d=%d \n", num1, num2, result);
 	printf("%d와(과) %d의 합은 %d입니다.\n", num1, num2, result);
 	return 0;
+}
 
 
+int OperatorOne(void) // 대입 연산자와 산술 연산자
+{
+	int num1 = 9, num2 = 2;
+
+	printf("%d+%d=%d \n", num1, num2, num1+num2);
+	printf("%d-%d=%d \n", num1, num2, num1-num2);
+	printf("%dX%d=%d \n", num1, num2, num1*num2);
+	printf("%d/%d의 목=%d \n", num1, num2, num1/num2);
+	printf("%d/%d의 나머지=%d \n", num1, num2, num1%num2);
+
+	return 0;
 
 
+	/*
+	  복합 대입 연산자
+	a = a+b  <>  a += b
+	a = a-b  <>  a -= b
+	a = a*b  <>  a *= b
+	a = a/b  <>  a /= b
+	a = a%b  <>  a %= b
+
+	*/
+}
+
+
+int OperatorTwo(void) //+, - 연산자
+{	
+	int num1 = +2;
+	int num2 = -4;
+
+	num1 = -num1;
+	printf("num1 : %d \n", num1);
+	num2 = -num2;
+	printf("num2 : %d \n", num2);
+	return 0;
+
+}
+
+/*
+num1=-num2;
+num1-=num2;
+
+헷갈리지않게 잘 표시할것.
+num1 = -num2;
+num1 -= num2;
+*/
+
+int OperatorThree(void) //증가, 감소 연산자
+{
+	int num1 = 12;
+	int num2 = 12;
+	printf("num1: %d \n", num1);
+	printf("num1: %d \n", num1++);
+	printf("num1: %d \n\n", num1);
+
+	printf("num2: %d \n", num2);
+	printf("num2: %d \n", ++num2);
+	printf("num2: %d \n\n", num2);
+	return 0;
+	// num1++ 후위증가(행동 후 증가)
+	// ++num1 전위증가(증가 후 행동)
+	// --도 동일(대신 감소)
+	
+}
+
+
+int OperatorFour(void) //관게 연산자
+{
+	int num1 = 10;
+	int num2 = 12;
+
+	int result1, result2, result3;
+
+	result1 = (num1==num2);
+	result2 = (num1<=num2);
+	result3 = (num1>num2);
+
+	printf("result1 : %d \n", result1);
+	printf("result2 : %d \n", result2);
+	printf("result3 : %d \n", result3);
+
+	return 0;
+
+	/*
+	A<B A가 B보다 작은가?
+	A>B A가 B보다 큰가?
+	A==B A와 B가 같은가?
+	A!=B A와 B가 다른가?
+	A<=B A가 B보다 같거나 작은가?
+	A>=B A가 B보다 같거나 큰가?
+	*/
+}
+
+int OperatorFive(void) // 논리연산자
+{
+	int num1 = 10;
+	int num2 = 12;
+	int result1, result2, result3;
+
+	result1 = (num1==10 && num2==12);  // 논리AND : 둘 다 참이면 '참'을 반환 
+	result2 = (num1<12 || num2>12);    // 논리OR : 둘 중 하나라도 참이면 '참'을 반환
+	result3 = (!num1);				   // 논리NOT : 참이면 '거짓', 거짓이면 '참'을 반환
+	//->> 논리연산자보다 관계연산자가 먼저 실행됨!!
+
+	printf("result1 : %d \n", result1);
+	printf("result2 : %d \n", result2);
+	printf("result3 : %d \n", result3); // C언어에서는 0이 아닌 모든 값을 참(true)로 간주
+
+	return 0;
+}
+
+
+int CommaOperate(void) //콤마 연산자
+{
+	int num1 = 1, num2 = 2;
+	printf("Hello "), printf("world! \n");
+	num1++, num2++;
+	printf("%d ", num1), printf("%d ",num2), printf("\n");
+	return 0;
 }
