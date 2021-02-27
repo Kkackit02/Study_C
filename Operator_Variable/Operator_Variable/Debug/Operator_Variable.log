@@ -1,4 +1,4 @@
-﻿빌드 시작: 2021-02-26 오후 6:24:32
+﻿빌드 시작: 2021-02-27 오후 5:49:11
      1>2 노드의 "D:\Data\Github\Study_C\Operator_Variable\Operator_Variable\Operator_Variable.vcxproj" 프로젝트(build 대상)입니다.
      1>InitializeBuildStatus:
          "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\Operator_Variable.unsuccessfulbuild"을(를) 만들고 있습니다.
@@ -13,6 +13,8 @@
      1>d:\data\github\study_c\operator_variable\operator_variable\operator.c(16): warning C4013: 'OperatorFour'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
      1>d:\data\github\study_c\operator_variable\operator_variable\operator.c(17): warning C4013: 'OperatorFive'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
      1>d:\data\github\study_c\operator_variable\operator_variable\operator.c(18): warning C4013: 'CommaOperate'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>d:\data\github\study_c\operator_variable\operator_variable\operator.c(19): warning C4013: 'BitAndOperate'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>d:\data\github\study_c\operator_variable\operator_variable\operator.c(20): warning C4013: 'BitOrOperate'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
        ManifestResourceCompile:
          모든 출력이 최신 상태입니다.
        Link:
@@ -31,4 +33,4 @@
 
 빌드했습니다.
 
-경과 시간: 00:00:00.76
+경과 시간: 00:00:00.74

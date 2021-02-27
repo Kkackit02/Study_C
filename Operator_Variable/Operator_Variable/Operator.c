@@ -202,6 +202,8 @@ int CommaOperate(void) //콤마 연산자
 	int num1 = 1, num2 = 2;
 	printf("Hello "), printf("world! \n");
 	num1++, num2++;
-	printf("%d ", num1), printf("%d ",num2), printf("\n");
+	printf("%d ", num1), printf("%d ",num2), printf("\n"); //Hello world, 2, 3
 	return 0;
 }
+
+
